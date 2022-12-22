@@ -10,7 +10,7 @@ const DetoxError = require('../src/errors/DetoxError');
 yargs
   .scriptName('detox')
   .parserConfiguration({
-    'boolean-negation': false,
+    'boolean-negation': true,
     'camel-case-expansion': false,
     'dot-notation': false,
     'duplicate-arguments-array': false,
