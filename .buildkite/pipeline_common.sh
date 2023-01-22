@@ -1,5 +1,6 @@
 #!/bin/bash -e
-
+echo "agents:"
+echo "  queue: xcode14"
 echo "steps:"
 
 cat .buildkite/jobs/pipeline.ios_rn_68.yml
